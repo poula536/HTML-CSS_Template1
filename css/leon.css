@@ -431,9 +431,28 @@ body {
     font-size: 25px;
   }
 }
+.contact .social i{
+  transition: 0.5s ;
+  -webkit-transition: 0.5s ;
+  -moz-transition: 0.5s ;
+  -ms-transition: 0.5s ;
+  -o-transition: 0.5s ;
+}
+.contact .social a .fa-youtube:hover{
+  color: #cc0000;
+}
+.contact .social a .fa-facebook:hover{
+  color: #1877F2;
+}
+.contact .social a .fa-twitter:hover{
+  color:rgb(29, 155, 240);
+}
+.contact .social a .fa-linkedin:hover{
+  color:#0a66c2;
+}
 /*end contact*/
 
-/**/
+/*start footer*/
 .footer{
   background-color: var(--secondary-color);
   color: white;
@@ -445,7 +464,7 @@ body {
   font-weight: bold;
   color: var(--main-color);
 }
-/**/
+/*end footer*/
 
 html{
   scroll-behavior: smooth;
